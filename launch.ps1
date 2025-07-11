@@ -9,7 +9,7 @@ $exeUrl = "https://raw.githubusercontent.com/Ahteshamknr/AhteshamTool/main/Ahtes
 $exePath = "$env:TEMP\AhteshamTool.exe"
 
 # Download the EXE to the temp folder
-Write-Host "`n⬇️ Downloading tool to $exePath..."
+Write-Host "`n⬇️ Downloading tool to..."
 Invoke-WebRequest -Uri $exeUrl -OutFile $exePath
 
 # Run the tool as administrator
